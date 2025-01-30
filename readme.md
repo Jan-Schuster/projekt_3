@@ -18,8 +18,12 @@ and the name of the output CSV file.
 The URL part MUST contain the correct url and the name of the output CSV file
 MUST contain '.csv' part.
 There are three examples of running the script:
+
 python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103" "prostejov.csv"
+
 python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2106" "Melnik.csv" 
+
 python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2102" "Benesov.csv"
+
 The example outputs: prostejov.csv, Melnik.csv and Benesov.csv 
 are attached to this repository
